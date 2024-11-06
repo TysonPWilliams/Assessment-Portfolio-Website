@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #46494c;
+}
+.logo img {
+    max-width: 40vw;
+}
+.menuContent {
+    padding: 0 0 0 50px;
+    
+}
+.collapsibleMenu {
+    background-color: #C5C3C6;
+    padding: 0px 30px;
+    border-bottom: 3px solid #1985A1;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    font-weight: 600;
+}
+.collapsibleMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsibleMenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #46494c;
+    font-weight: 600;
+}
+.collapsibleMenu label {
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    background: url(images/hamburger.png) no-repeat left center;
+    padding: 10px 0 10px 50px;
+}
+input#menu {
+    display: none;
+}
+input:checked +label {
+    background-image: url(close.png);
+}
