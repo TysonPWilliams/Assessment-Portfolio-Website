@@ -20,28 +20,39 @@
         <nav>
             <!--The following code is for a collapsible hamburger navigation menu, courtesy of CodeBurst.io https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390-->
             <div class="collapsibleMenu">
-                <i class="fi fi-br-menu-burger"></i>
                 <input type="checkbox" id="menu">
                 <label for="menu">Menu</label>
                 <div class="menuContent">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Projects & Skills</a></li>
-                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="projects.html">Projects & Skills</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="heroSection">
             <img id="heroImage" src="images/tysonChickenCropped.jpg" alt="Me holding a chicken">
-            <h1>Hi, I'm Tyson - Your Partner in Building Reliable, User-Friendly Websites </h1>
-            <p>I'm Tyson, a passionate web developer based in rural Australia with a knack for creating intuitive, user-friendly websites.</p><p>With a strong foundation in design and functionality, I’m dedicated to helping brands and individuals bring their visions to life online.</p><p>My focus is on delivering reliable, accessible, and engaging websites tailored to meet each client’s unique needs. Let's work together to build something exceptional.</p>
+            <h3>Hi, I'm</h3>
+            <h1>Tyson Williams</h1>
+            <h2>Front-End Developer</h2>           
+            
+            <div id="heroButtons">
+                <button>Download CV</button>
+                <button>Contact</button>
+            </div>
         </section>
     </main>
     <footer>
-        <div></div>
+        <div>
+            <section class="footer">
+                <a href=""><img src="images/githubLogo.svg" alt="GitHub"></a>
+                <a href=""><img src="images/linkedinLogo.svg" alt="LinkedIn"></a>
+                <a href=""><img src="images/gmailLogo.svg" alt="Gmail Logo"></a>
+            </section>
+        </div>
     </footer>
 </body>
 </html>
