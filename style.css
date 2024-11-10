@@ -8,7 +8,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: #DCDCDD;
+    background-image: url(images/pexels-life-of-pix-8892.jpg);
+    background-size: 200%;
 }
 header {
     display: flex;
@@ -78,6 +79,7 @@ input:checked ~ .menuContent {
     padding: 5px;
 }
 #heroImage {
+    margin-top: 8%;
     border-radius: 50%;
     animation: fadeIn 4s;
     width: 75%;
@@ -86,7 +88,8 @@ input:checked ~ .menuContent {
 .heroSection h1 {
     padding-top: 10px;
     padding-bottom: 5px;
-    color: #4C5C68;
+    color: #F6F9FE;
+    text-shadow: 2px 2px 2px black;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 900;
@@ -117,12 +120,22 @@ input:checked ~ .menuContent {
     background-color: rgba(25,133,161,0.5);
     color: #46494c;
 }
-footer section {
+footer .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #4C5C68;
     height: 120px;
     width: 100%;
+}
+i.fa {
+    font-size: 48px;
+    color: #F6F9FE;
+}
+.footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 /* .footer img {
     display: flex;
