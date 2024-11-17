@@ -76,7 +76,17 @@ input:checked ~ .menuContent {
     to {
     }
 }
-
+@keyframes enterRight {
+    from {
+        right: 400px;
+        transform: translate(400px);
+    }
+    to {
+    }
+}
+#headings {
+    animation: enterRight 1s;
+}
 .heroSection {
     text-align: center;
     padding: 5px;
@@ -222,6 +232,7 @@ i.fa {
     text-align: center;
 }
 #gallery {
+    animation: enterLeft 1s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,16 +336,16 @@ input, textarea, #formButton {
         justify-content: center;
     }
     #headings h1 {
-        font-size: 5vw;
-    }
-    #headings h2 {
         font-size: 4vw;
     }
-    #headings h3 {
+    #headings h2 {
         font-size: 3vw;
     }
+    #headings h3 {
+        font-size: 2vw;
+    }
     #heroButtons button {
-        font-size: 2.2vw;
+        font-size: 1.5vw;
     }
     #gallery {
         display: flex;
