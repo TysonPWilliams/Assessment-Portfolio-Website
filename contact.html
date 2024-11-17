@@ -10,29 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        label {
-            color: #F6F9FE;
-            margin: 10px;
-        }
-        input, textarea, button {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 2px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            border: none;
-            font-weight: 700;
-            font-size: 1rem;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #1985A1;
-            color: #F6F9FE;
-        }
-    </style>
 </head>
 
 <body>
@@ -57,9 +34,9 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="contactMain">
         <section class="heroSection">
-            <h1>Contact Me</h1>
+            <h1 id="mainHeading">Contact Me</h1>
             <p id="form">Please complete the below form and I'll get back you!</p>
         </section>
         <section class="formSection">
@@ -73,7 +50,7 @@
                 <label for="contactInfo">Contact Info:</label>
                 <input type="email" id="contactInfo" name="contactInfo" placeholder="Enter your email address" required>
 
-                <button type="submit">Submit</button>
+                <button id="formButton" type="submit">Submit</button>
             </form>
         </section>
     </main>
@@ -82,9 +59,11 @@
             <section class="footer">
                 <a href="https://github.com/TysonPWilliams"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/tyson-williams-13273760/"><i class="fab fa-linkedin-square"></i></a>
-                <a href=""><i class="fa material-icons">mail</i></a>
-                
+                <a class="cta" href="mailto:tyson.williams95@gmail.com"><i class="fa material-icons">mail</i></a>
             </section>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy; 2024; Designed by <span class="designer">Tyson.W</span></p>
         </div>
     </footer>
 </body>
